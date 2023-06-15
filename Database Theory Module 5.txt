@@ -1,0 +1,46 @@
+Module 5 -Database 
+
+(1) What do you understand By Database ?
+ A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).
+
+(2) What is Normalization?
+ Normalization is the process of minimizing redundancy (duplicity) from a relation or set of relations.Redundancy in relation may cause insertion, deletion and updation anomalies. So, it helps to minimize the redundancy in relations.
+
+(3) What is Difference between DBMS and RDBMS?
+ DBMS
+DBMS stores data as file.
+No relationship between data.
+Normalization is not present.
+It deals with small quantity of data.
+It supports single user.
+ RDMS
+RDBMS stores data in tabular form.
+Data is stored in the form of tables which are related to each other.
+Normalization is present.
+It deals with large amount of data.
+It supports multiple users.
+
+(4) What is MF Cod Rule of RDBMS Systems?
+ Relational database theory was first introduced by Edgar Frank Codd in 1970. Edgar Frank Codd was a British computer scientist who, while working for IBM, invented the relational model for database management the theoretical basis for relational databases. On satisfying a relational model, Codd outlined 13 rules, which are often referred to as Cod's 12 rules, which serve as the framework for a truly relational database.
+
+(5) What do you understand By Data Redundancy?
+ Data redundancy is a condition created within a database or data storage technology in which the same piece of data is held in two separate places.
+This can mean two different fields within a single database, or two different spots in multiple software environments or platforms. Whenever data is repeated, it basically constitutes data redundancy.When data is redundant, it may happen by accident or it may be done deliberately for backups and recoveries.
+
+(6) What is DDL Interpreter?
+ DDL Interpreter DDL expands to Data Definition Language. DDL Interpreter as the name suggests interprets the DDL statements such as schema definition statements like create, delete, etc The result of this interpretation is a set of a table that contains the meta-data which is stored in the data dictionary.
+
+(7) What is DML Compiler in SQL?
+ A DML (data manipulation language) refers to a computer programming language that allows you to add insert, delete 'delete', and alter update data in a database.A DML  is a group of computer languages that provide commands for manipulating data in databases.
+
+(8) What is SQL Key Constraints writing an Example of SQL Key Constraints
+ SQL constraints are used to specify rules for the data in a table.
+Constraints are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the table. If there is any violation between the constraint and the data action, the action is aborted.
+
+(9) What is save Point? How to create a save Point write a Query?
+ Savepoint is a command in SQL that is used with the rollback command.
+The SAVEPOINT is used for dividing or breaking a transaction into multiple units so that the user has a chance of roll backing the transaction up to a specified point. That means using Save Point we can roll back a part of a transaction instead of the entire transaction.
+
+(10) What is trigger and how to create a Trigger in SQL?
+ A trigger is a set of SQL statements that reside in system memory with unique names. It is a specialized category of stored procedure that is called automatically when a database server event occurs. Each trigger is always associated with a table.
+A trigger is called a special procedure because it cannot be called directly like a stored procedure. The key distinction between the trigger and procedure is that a trigger is called automatically when a data modification event occurs against a table. A stored procedure, on the other hand, must be invoked directly.
